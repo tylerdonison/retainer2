@@ -78,5 +78,15 @@ Delete::
 			Sleep sleeptime
 			}
 		ControlSend, , {Numpad2}, ahk_id %ID% ; Scrolls back to top retainer
+		Sleep 1200000
+		ControlSend, , {Numpad8}, ahk_id %ID%
+		Sleep 500
+		ControlSend, , {Numpad2}, ahk_id %ID%
+		Sleep 1200000
+		ControlSend, , {Numpad8}, ahk_id %ID%
+		Sleep 500
+		ControlSend, , {Numpad2}, ahk_id %ID%
+
+
 		Return		
 F1::ExitApp
